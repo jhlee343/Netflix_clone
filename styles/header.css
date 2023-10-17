@@ -1,0 +1,40 @@
+
+.header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    /* background-image: url(assets/wonderwomen.png); */
+}
+
+
+.cover{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
+}
+.left-section{
+    background-position: left;
+    background-position: top;
+    margin-left: 8px;
+    margin-top: 3px;
+    width: 70px;
+    height: 70px;
+
+}
+.right-section{
+    margin-right: 8px;
+    width: 70px;
+    height: 70px;
+}
+
+.hero-header{
+    height: 950px;
+    background-image: url(../assets/paperHouse.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center ;
+
+}
