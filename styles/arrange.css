@@ -1,0 +1,38 @@
+.arrange{
+    z-index: 1;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.Netflix-Original,
+.Trending-Now{
+    margin: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.item{
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-left :1px;
+    margin-right: 1px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.item :hover{
+    transform: scale(1.2);
+    transition: transform.5s;
+}

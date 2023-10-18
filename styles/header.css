@@ -1,40 +1,99 @@
 
 .header{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     position: fixed;
+    z-index: 1;
     /* background-image: url(assets/wonderwomen.png); */
 }
-
-
 .cover{
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+    width: fit-content;
+    height: fit-content;
 
 }
 .left-section{
     background-position: left;
     background-position: top;
-    margin-left: 8px;
+    margin-left: 10px;
     margin-top: 3px;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 80px;
 
 }
 .right-section{
-    margin-right: 8px;
-    width: 70px;
-    height: 70px;
+    margin-right: 18px;
+    width: 45px;
+    height: 45px;
+    border-radius: 70%;
+    overflow: hidden;
 }
 
 .hero-header{
-    height: 950px;
-    background-image: url(../assets/paperHouse.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center ;
+    display: flex;
+}
+.poster{
+    width:1900px;
+    height:800px;
+    overflow:hidden;
+    margin:0 auto;
+}
+.poster img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position: relative;
+}
 
+
+.package{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    left: 2%;
+}
+
+.title {
+    margin-top: 20px;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.sub{
+    color: white;
+    font-size: 20px;
+    width: 500px;
+    height: auto;
+}
+.package-button{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.Play,
+.My-List{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 120px;
+    min-height: 40px;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.Play:hover,
+.My-List:hover{
+    background-color: black;
+    opacity: 1;
+    transform: 0.8s;
 }
